@@ -1,0 +1,85 @@
+.login-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(83, 133, 148);
+    border-radius: 5px;
+    background-color: #499da3;
+  }
+  
+  .login-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 5px;
+    color: rgb(15, 15, 15); /* Change this to the desired color */
+}
+
+/* Additional styles for the error message */
+
+  .form-input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-label {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    padding: 10px 39px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color:#0056b3;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .signin-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signin-container a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .signin-container a:hover {
+    text-decoration: underline;
+  }
+  .error {
+    color: red; /* Change this to the desired color */
+  }
+  
